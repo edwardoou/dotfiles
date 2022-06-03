@@ -3,10 +3,10 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 #dev
-brew "node"
-cask "iterm2"
-cask "runjs"
-cask "postman"
+brew "node"         # Platform built on V8 to build network applications
+cask "iterm2"       # Terminal emulator as alternative to Apple's Terminal app
+cask "runjs"        # JavaScript playground that auto-evaluates as code is typed
+cask "postman"      # Collaboration platform for API development
 cask "visual-studio-code"
 
 #fun
@@ -14,7 +14,8 @@ cask "spotify"
 cask "discord"
 
 #tools
-cask "keka"
+cask "keka"         # File archiver
 cask "microsoft-edge"
-cask "obsidian"
+cask "rectangle"    # Move and resize windows using keyboard shortcuts or snap areas
+cask "obsidian"     # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "webex-meetings"
