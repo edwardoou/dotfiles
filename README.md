@@ -55,6 +55,6 @@ ln -s ~/dotfiles/.<archivo>  ~/.<archivo>
 - Source: [Pumpingco](https://pumpingco.de/blog/brewfile/)  
 - Comando:  
 ```s
-brew bundle --file ~/my-folder/Brewfile
+brew bundle --file ~/.dotfiles/Brewfile
 ```
 **Antes revisar bien la documentacion**
