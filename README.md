@@ -41,14 +41,14 @@ brew bundle --file ~/.dotfiles/Brewfile
 cd ~/.dotfiles && brew bundle
 ```
 
-Move files:
+5. Install oh-my-zsh
 ```zsh
-mv ~/.<archivo> ~/dotfiles/
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Link files:
+Move files to .dotfiles:
 ```zsh
-ln -s ~/dotfiles/.<archivo>  ~/.<archivo>
+mv ~/.<archivo> ~/.dotfiles/
 ```
 
 ## BrewFile  

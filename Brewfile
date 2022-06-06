@@ -15,7 +15,8 @@ cask "discord"
 
 #tools
 cask "keka"         # File archiver
-cask "microsoft-edge"
 cask "rectangle"    # Move and resize windows using keyboard shortcuts or snap areas
+cask "stats"        # System monitor for the menu bar
 cask "obsidian"     # Knowledge base that works on top of a local folder of plain text Markdown files
+cask "microsoft-edge"
 cask "webex-meetings"
