@@ -3,7 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 #dev
-brew "node"         # Platform built on V8 to build network applications
+#brew "node"        # Estoy usando nvm de momento, hay problemas de nvm con homebrew por eso hago la instalacion directa.
 cask "iterm2"       # Terminal emulator as alternative to Apple's Terminal app
 cask "runjs"        # JavaScript playground that auto-evaluates as code is typed
 cask "postman"      # Collaboration platform for API development
