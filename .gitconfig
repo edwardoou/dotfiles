@@ -5,6 +5,7 @@
 	defaultBranch = main
 [core]
 	editor = code --wait
+	excludesfile = ~/.gitignore_global
 #Source: https://spin.atomicobject.com/2020/05/05/git-configurations-default/
 [pull]
   rebase = true
