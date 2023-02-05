@@ -6,6 +6,11 @@ Son mis dotfiles, no hago uso de una utilidad, primero quiero usarlos asi, en ca
 - [Alternativa de utilidad](https://github.com/CodelyTV/dotly)
 - [Que son los dotfiles?](https://www.youtube.com/watch?v=r_MpUP6aKiQ)
 
+## Git Config
+[Evitar problemas de cambio de linea](https://www.campusmvp.es/recursos/post/git-como-evitar-problemas-con-cambios-de-linea-al-trabajar-en-equipo.aspx)  
+[Configuraciones de git en defautl](https://spin.atomicobject.com/2020/05/05/git-configurations-default/)  
+[Git y github en windows](https://youtu.be/wHh3IgJvXcE)
+
 ## Steps to bootstrap a new Mac
 
 1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
@@ -13,7 +18,6 @@ Son mis dotfiles, no hago uso de una utilidad, primero quiero usarlos asi, en ca
 ```zsh
 xcode-select --install
 ```
-
 
 2. Clone repo into new hidden directory.
 
@@ -58,3 +62,4 @@ mv ~/.<archivo> ~/.dotfiles/
 brew bundle --file ~/.dotfiles/Brewfile
 ```
 **Antes revisar bien la documentacion**
+
