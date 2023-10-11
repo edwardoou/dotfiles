@@ -5,6 +5,7 @@ Son mis dotfiles, no hago uso de una utilidad, primero quiero usarlos asi, en ca
 - [Utilidades](http://dotfiles.github.io/utilities/)
 - [Alternativa de utilidad](https://github.com/CodelyTV/dotly)
 - [Que son los dotfiles?](https://www.youtube.com/watch?v=r_MpUP6aKiQ)
+- [Dotfiles para developers - Medium](https://leeked.medium.com/dotfiles-for-developers-part-1-8b599ba92f75)
 
 ## Git Config
 [Evitar problemas de cambio de linea](https://www.campusmvp.es/recursos/post/git-como-evitar-problemas-con-cambios-de-linea-al-trabajar-en-equipo.aspx)  
