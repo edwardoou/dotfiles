@@ -1,0 +1,18 @@
+# Configuracion para varias cuentas de git en un mismo equipo, en la carpeta ~/.ssh/
+# Valido tanto para windows como para mac
+# Referencia -> https://www.youtube.com/watch?v=pZuhsL56VCk
+
+# GitHub Principal Cuenta
+Host github
+  HostName github.com
+  IdentityFile ~/.ssh/<privatekey>.key
+  IdentitiesOnly yes
+
+# GitLab Domain Trabajo
+Host gitlab
+  PreferredAuthentications publickey
+  HostName gitlab.com
+  IdentityFile ~/.ssh/<privatekey>.key
+  IdentitiesOnly yes
+
+#En caso de usar un host privado reemplazarlo
