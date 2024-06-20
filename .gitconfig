@@ -1,6 +1,11 @@
-[user]
-	name = edwardoou
-	email = 67031155+edwardoou@users.noreply.github.com
+#[user]
+#	name = edwardoou
+#	email = 67031155+edwardoou@users.noreply.github.com
+
+# Usuario y Correo de git personalizados por carpeta donde se trabajara
+[includeIf "gitdir:~/proyectos/personal"]
+  	path = ~/.gitconfig-personal
+#-------------------------------------------------------------------------------
 [init]
 	defaultBranch = main
 [core]
