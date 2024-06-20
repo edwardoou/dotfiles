@@ -1,6 +1,7 @@
 # Configuracion para varias cuentas de git en un mismo equipo, en la carpeta ~/.ssh/
 # Valido tanto para windows como para mac
 # Referencia -> https://www.youtube.com/watch?v=pZuhsL56VCk
+# Multiple nombre y correo de Git -> https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/
 
 # GitHub Principal Cuenta
 Host github
